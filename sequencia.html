@@ -8,8 +8,12 @@
 -Exercitado os comandos commit e checkout e merge. 
 - git branch outrobranch -> Cria outrobranch com a situação do ultimo commit realizado no branch de origem; 
 -Verificado que quando cria um novo arquivo  em um branch muda se para outrobranch - Checkout outrobrancg, sem realizar o commit antes, este arquivo é automaticamente copiado para o outrobranch 
-- Pórem se realizar alterações em arquivos já existentes e tentar mudar para outrobranch, o git alerta que as alterações no outrobranch podem ser sobrebostas pelas realizadas no branch origem 
+- Pórem se realizar alterações em arquivos já existentes e tentar mudar para outrobranch, o git alerta que as alterações no outrobranch podem ser sobrebostas pelas realizadas no branch origem - Neste caso os branch tem commits diferentes. 
 -Se for realizado o commit no outrobranch as alterações no branch origem são descartadas pelo git. 
 ->Inclusão realizado no branch dia12Ago2020v2
 ->Inclusão realizada no branch master
 ->Inclusão realizado no branh dia12Ago2020v2
+->Git checkout  outrobranch, cria as alteraçoes em outrobranch, somente para aquelas que não foram comitadas. e desde que os branchs estejam no mesmo HEAD; 
+
+Teste antes de ir para master
+Alteração realizada no master  antes de ir para o branch dia12Ago2020v2 - Isto sera perdido em master após o commit em dia12Ago2020v2.  
